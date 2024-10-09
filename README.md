@@ -1,3 +1,4 @@
+
 # Terraform VPC Peering and EC2 Setup
 
 This Terraform configuration creates two VPCs, sets up VPC peering between them, and launches two EC2 instances (one in each VPC). The instances are configured to communicate with each other using ICMP (ping) through security groups and route tables.
@@ -35,9 +36,7 @@ This Terraform configuration creates two VPCs, sets up VPC peering between them,
    - AWS credentials configured.
 
 2. **Steps**:
-   - Initialize Terraform: ```bash
-   terraform init
-    ```
+   - Initialize Terraform: `terraform init`
    - Apply the configuration: `terraform apply`
 
 3. **Testing**:
@@ -55,5 +54,3 @@ To destroy all resources, run:
 ```bash
 terraform destroy
 ```
-
----
